@@ -33,14 +33,36 @@
     width: 260px;
     margin-top: 13px;
     line-height: 1.7em;
-    letter-spacing: 0.04em;;
+    letter-spacing: 0.04em;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .Card__Info__Description {
+      padding-left: 40px;
+      margin-bottom: 2px;
+      width: 400px;
+    }
+
+    .Card__Info__Description h2 {
+      margin-top: 34px;
+      font-size: 19px;
+      width: 366px;
+      letter-spacing: 0.0378em;
+    }
+
+    .Card__Info__Description p {
+      margin-top: 12px;
+      margin-bottom: 2px;
+      width: 366px;
+      letter-spacing: 0.039em;
+    }
   }
 </style>
 
 <div class="Card__Info__Description">
   <h2>
     Shift the overall look and feel by adding these wonderful touches to
-    furniture in your hom
+    furniture in your home
   </h2>
   <p>
     Ever been in a room and felt like something was missing? Perhaps it felt

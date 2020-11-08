@@ -17,7 +17,7 @@
 
   @media screen and (min-width: 1440px) {
     .design {
-      margin-top: -638px;
+      margin-top: -400px;
     }
   }
 </style>

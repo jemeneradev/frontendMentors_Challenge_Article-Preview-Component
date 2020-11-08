@@ -14,24 +14,52 @@
     /* background-color: red; */
     border-radius: 10px;
 
-    opacity: .5;
+    opacity: 0.5;
   }
 
-  .Card .Card__banner {
+  .Card__banner {
     height: 200px;
     width: 100%;
     overflow: hidden;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
-  .Card .Card__banner img {
+  .Card__banner img {
     width: 327px;
     object-position: 0px -16px;
   }
-  .Card .Card__Info {
+  .Card__Info {
     position: relative;
     width: 100%;
     height: 313px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    .Card {
+      display: flex;
+      width: 730px;
+      height: 280px;
+      top: 139px;
+      left: 331px;
+    }
+
+    .Card__banner {
+      top: 0;
+      left: 0;
+      width: 285px;
+    }
+
+    .Card__banner img {
+      width: 348px;
+      object-position: 1px 1px;
+    }
+
+    .Card__Info {
+      width: 445px;
+      top: 0;
+      left: 0;
+      flex-direction: column;
+    }
   }
 </style>
 

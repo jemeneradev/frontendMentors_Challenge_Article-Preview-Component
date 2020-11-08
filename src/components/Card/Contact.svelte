@@ -14,12 +14,15 @@
   }
 
   .Card__Info .Card__Info__Contact__User .Card__Info__Contact__User__Avatar {
-      position: relative;
-      width: 120px;
-      height: 64px;
+    position: relative;
+    width: 120px;
+    height: 64px;
   }
 
-  .Card__Info .Card__Info__Contact__User .Card__Info__Contact__User__Avatar img {
+  .Card__Info
+    .Card__Info__Contact__User
+    .Card__Info__Contact__User__Avatar
+    img {
     width: 40px;
     border-radius: 50%;
     position: absolute;
@@ -85,6 +88,20 @@
     margin-top: 9px;
   }
 
+  @media screen and (min-width: 1440px) {
+    .Card__Info__Contact {
+      height: 70px;
+    }
+    .Card__Info__Contact .Card__Info__Contact__User {
+      width: 347px;
+    }
+    .Card__Info
+      .Card__Info__Contact__User
+      .Card__Info__Contact__User__Avatar
+      img {
+      left: 40px;
+    }
+  }
 </style>
 
 <div class="Card__Info Card__Info__Contact">
