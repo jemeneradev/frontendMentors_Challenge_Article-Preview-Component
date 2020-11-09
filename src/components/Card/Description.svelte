@@ -14,7 +14,7 @@
 
     padding: 0;
     padding-left: 32px;
-    margin-bottom: 9px;
+    margin-bottom: 0;
   }
 
   .Card__Info__Description h2 {
@@ -30,6 +30,7 @@
   .Card__Info__Description p {
     color: #48556a;
     font-size: 12px;
+    font-weight: 400;
     width: 260px;
     margin-top: 13px;
     line-height: 1.7em;
