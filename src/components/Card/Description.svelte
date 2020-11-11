@@ -1,6 +1,6 @@
 <style>
   .Card__Info__Description {
-    width: 100%;
+    width: 85%;
     height: 204px;
     background-color: white;
 
@@ -31,10 +31,11 @@
     color: #48556a;
     font-size: 12px;
     font-weight: 400;
-    width: 260px;
+    width: 263px;
+    height: 100px;
     margin-top: 13px;
     line-height: 1.7em;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.058em;
   }
 
   @media screen and (min-width: 1440px) {
@@ -54,8 +55,8 @@
     .Card__Info__Description p {
       margin-top: 12px;
       margin-bottom: 2px;
-      width: 366px;
-      letter-spacing: 0.039em;
+      width: 374px;
+    letter-spacing: 0.058em;
     }
   }
 </style>

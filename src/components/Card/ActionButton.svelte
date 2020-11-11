@@ -15,7 +15,7 @@
     left: 26px; */
   }
 
-  .Card__Info__Contact__Action .Card__Info__Contact__Action__Share img {
+  .Card__Info__Contact__Action__Share img {
     margin: 0;
     margin-left: 9px;
     margin-top: 9px;

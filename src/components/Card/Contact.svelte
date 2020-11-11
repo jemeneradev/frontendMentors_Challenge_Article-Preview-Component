@@ -86,7 +86,7 @@
     /* background-color: red; */
     /* opacity: 0.3; */
     width: 100%;
-    height: 58px;
+    height: 65px;
     top: 0;
     left: 0;
     border-radius: 0 0 10px 10px;
@@ -135,7 +135,7 @@ top: 0px; */
   }
 
   .Card__Info__Contact_SocialMedia_Links ul li img {
-      align-self: center;
+    align-self: center;
   }
 
   .Card__Info__Contact_SocialMedia_Action {
@@ -159,6 +159,34 @@ top: 0px; */
       img {
       left: 40px;
     }
+
+    .Card__Info__Contact_SocialMedia {
+      width: 248px;
+      height: 49px;
+      border-radius: 10px;
+      top: -76px;
+      left: 265px;
+    }
+
+    .Card__Info__Contact_SocialMedia::after{
+      position:absolute;
+      top:45px;
+      left:115px;
+      content: '';
+      width: 18px;
+      height: 18px;
+      background-color: #48556a;
+      transform: rotate(45deg);
+    }
+
+    .Card__Info__Contact_SocialMedia_Links p {
+      margin-top: 13px;
+      margin-left: 37px;
+    }
+
+    .Card__Info__Contact_SocialMedia_Links ul {
+      margin-top: 12px;
+    }
   }
 </style>
 
@@ -181,9 +209,16 @@ top: 0px; */
       <div class="Card__Info__Contact_SocialMedia_Links">
         <p>SHARE</p>
         <ul>
-          <li><img src="./images/icon-facebook.svg" /></li>
-          <li><img style="padding-top:2px" src="./images/icon-twitter.svg" /></li>
-          <li><img src="./images/icon-pinterest.svg" /></li>
+          <li><img src="./images/icon-facebook.svg" alt="facebook icon" /></li>
+          <li>
+            <img
+              style="padding-top:2px"
+              src="./images/icon-twitter.svg"
+              alt="twitter icon" />
+          </li>
+          <li>
+            <img src="./images/icon-pinterest.svg" alt="pinterest icon" />
+          </li>
         </ul>
       </div>
       <div class="Card__Info__Contact_SocialMedia_Action">
