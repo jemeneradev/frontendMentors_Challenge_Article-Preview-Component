@@ -142,13 +142,14 @@ top: 0px; */
     position: relative;
     width: 90px;
     height: 48px;
-    padding-top: 10px;
-    padding-left: 40px;
+    padding-top: 7px;
+    padding-left: 26px;
   }
 
   @media screen and (min-width: 1440px) {
     .Card__Info__Contact {
       height: 70px;
+      padding: 0;
     }
     .Card__Info__Contact .Card__Info__Contact__User {
       width: 347px;
@@ -168,11 +169,11 @@ top: 0px; */
       left: 265px;
     }
 
-    .Card__Info__Contact_SocialMedia::after{
-      position:absolute;
-      top:45px;
-      left:115px;
-      content: '';
+    .Card__Info__Contact_SocialMedia::after {
+      position: absolute;
+      top: 45px;
+      left: 115px;
+      content: "";
       width: 18px;
       height: 18px;
       background-color: #48556a;
@@ -201,9 +202,9 @@ top: 0px; */
       <h2>28 Jun 2020</h2>
     </div>
   </div>
-  <div class="Card__Info__Contact Card__Info__Contact__Action">
+  <!-- <div class="Card__Info__Contact Card__Info__Contact__Action">
     <ActionButton actionHandler={toggleSocialMedia} />
-  </div>
+  </div> -->
   {#if showSocialMedia === true}
     <div class="Card__Info__Contact_SocialMedia">
       <div class="Card__Info__Contact_SocialMedia_Links">
@@ -221,9 +222,9 @@ top: 0px; */
           </li>
         </ul>
       </div>
-      <div class="Card__Info__Contact_SocialMedia_Action">
-        <ActionButton actionHandler={toggleSocialMedia} />
-      </div>
     </div>
   {/if}
+  <div class="Card__Info__Contact_SocialMedia_Action">
+    <ActionButton actionHandler={toggleSocialMedia} active={showSocialMedia}/>
+  </div>
 </div>

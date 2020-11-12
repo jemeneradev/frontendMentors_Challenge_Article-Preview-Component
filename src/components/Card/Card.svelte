@@ -11,18 +11,19 @@
     width: 327px;
     height: 512px;
     border-radius: 10px;
-    /* background-color: red; */
-    border-radius: 10px;
-
-    opacity: 0.5;
+    background-color: red;
+    /* background-color: white; */
+    box-shadow: 0px 10px 10px grey;
+    /* opacity: 0.5; */
   }
 
   .Card__banner {
     height: 200px;
     width: 100%;
     overflow: hidden;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+    /* border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px; */
+    border-radius: 10px 10px 0px 0px;
   }
   .Card__banner img {
     width: 327px;
@@ -47,6 +48,7 @@
       top: 0;
       left: 0;
       width: 285px;
+      border-radius: 10px 0px 0px 10px;
     }
 
     .Card__banner img {

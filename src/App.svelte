@@ -25,11 +25,11 @@
 <main>
   <Card />
   <div class="design">
-    <picture>
+ <!--    <picture>
       <source media="(min-width:1440px)" srcset="./design/desktop-design.jpg" />
       <source media="(max-width:1439px)" srcset="./design/mobile-design.jpg" />
       <img src="./design/mobile-design.jpg" alt="Mobile Design" />
-	</picture>
+	</picture> -->
 	<!-- <picture>
 		<source media="(min-width:1440px)" srcset="./design/desktop-active-state.jpg" />
 		<source media="(max-width:1439px)" srcset="./design/mobile-active-state.jpg" />
