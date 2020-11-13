@@ -152,6 +152,7 @@ top: 0px; */
   @media screen and (min-width: 1440px) {
     .Card__Info__Contact {
       margin-top: 2px;
+      /* padding-left: -1px; */
       height: 70px;
       padding: 0;
     }

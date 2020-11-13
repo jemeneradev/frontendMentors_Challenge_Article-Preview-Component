@@ -7,14 +7,15 @@
   .Card {
     position: relative;
     margin: 0;
+    margin-top: -9px;
     padding: 0;
     width: 327px;
     height: 512px;
-    border-radius: 10px;/* 
-    background-color: red; */
+    border-radius: 10px;
+    /* background-color: red; */
     background-color: white;
     /* box-shadow: 0px 10px 10px grey; */
-    opacity: .3;
+    /* opacity: .3; */
   }
 
   .Card__banner {
@@ -28,9 +29,10 @@
     border-radius: 10px 10px 0px 0px;
   }
   .Card__banner img {
-    width: 327px;
-    height: 280px;
-    object-position: 0px -16px;
+    width: 328px;
+    height: 281px;
+    object-position: 0px -26px;
+    border-radius: 10px 10px 0px 0px;
   }
   .Card__Info {
     position: relative;
@@ -44,8 +46,9 @@
       display: flex;
       width: 730px;
       height: 280px;
-      top: 139px;
-      left: 331px;
+      margin: 0;
+      /* top: 139px;
+      left: 331px; */
     }
 
     .Card__banner {
@@ -58,7 +61,7 @@
 
     .Card__banner img {
       width: 348px;
-      object-position: 1px 1px;
+      object-position: 0px 0px;
     }
 
     .Card__Info {

@@ -7,11 +7,25 @@
 </script>
 
 <style>
+  main {
+    width:375px;
+    height: 667px;
+    /* background-color: red; */
+    /* opacity: .3; */
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ECF2F8;
+
+  }
   .design {
     position: absolute;
     margin: 0 auto;
-    margin-top: -74px;
-    margin-left: -24px;
+    margin-top: -1px;
+    margin-left: -1px;
     z-index: -10;
     /*  background-color: red; */
   }
@@ -34,12 +48,16 @@
 
   @media screen and (min-width: 1440px) {
     .design {
-      margin-top: -120px;
+      margin-top: 0px;
+    }
+    main {
+      width: 1440px;
+      height: 800px;
     }
   }
 </style>
 
-{#if showDesign === true}
+<!-- {#if showDesign === true}
   <div class="design">
     {#if showActive !== true}
       <picture>
@@ -63,13 +81,13 @@
       </picture>
     {/if}
   </div>
-{/if}
+{/if} -->
 
 <main>
   <Card />
 </main>
 
-<div class="controls">
+<!-- <div class="controls">
   <ul>
     <li>
       <label for="showDesign">Show Design</label>
@@ -97,4 +115,4 @@
         name="showActive" />
     </li>
   </ul>
-</div>
+</div> -->

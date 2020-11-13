@@ -13,7 +13,7 @@
     letter-spacing: 0.021em;
 
     padding: 0;
-    padding-left: 32px;
+    padding-left: 31px;
     margin-bottom: 0;
   }
 
@@ -42,6 +42,8 @@
   @media screen and (min-width: 1440px) {
     .Card__Info__Description {
       padding-left: 40px;
+      /* margin-left: -1px; */
+      /* margin-top: -1px; */
       width: 400px;
       height: 204px;
     }
@@ -57,7 +59,7 @@
       margin-top: 12px;
       margin-bottom: 2px;
       width: 374px;
-    letter-spacing: 0.058em;
+      letter-spacing: 0.058em;
     }
   }
 </style>
