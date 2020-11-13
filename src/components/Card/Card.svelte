@@ -10,7 +10,7 @@
     margin-top: -9px;
     padding: 0;
     width: 327px;
-    height: 512px;
+    height: 500px;
     border-radius: 10px;
     /* background-color: red; */
     background-color: white;
