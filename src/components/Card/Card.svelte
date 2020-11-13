@@ -16,6 +16,10 @@
     background-color: white;
     /* box-shadow: 0px 10px 10px grey; */
     /* opacity: .3; */
+
+    /* Rectangle */
+
+    box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
   }
 
   .Card__banner {
@@ -38,7 +42,7 @@
     position: relative;
     width: 100%;
     height: 313px;
-    top:0px;
+    top: 0px;
   }
 
   @media screen and (min-width: 1440px) {
