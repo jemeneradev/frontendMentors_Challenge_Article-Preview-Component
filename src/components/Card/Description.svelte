@@ -42,12 +42,12 @@
   @media screen and (min-width: 1440px) {
     .Card__Info__Description {
       padding-left: 40px;
-      margin-bottom: 2px;
       width: 400px;
+      height: 204px;
     }
 
     .Card__Info__Description h2 {
-      margin-top: 34px;
+      padding-top: 34px;
       font-size: 19px;
       width: 366px;
       letter-spacing: 0.0378em;

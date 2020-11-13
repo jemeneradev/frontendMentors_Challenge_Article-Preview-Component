@@ -10,8 +10,8 @@
     padding: 0;
     width: 327px;
     height: 512px;
-    border-radius: 10px;
-    /* background-color: red; */
+    border-radius: 10px;/* 
+    background-color: red; */
     background-color: white;
     /* box-shadow: 0px 10px 10px grey; */
     opacity: .3;
@@ -29,6 +29,7 @@
   }
   .Card__banner img {
     width: 327px;
+    height: 280px;
     object-position: 0px -16px;
   }
   .Card__Info {
@@ -48,6 +49,7 @@
     }
 
     .Card__banner {
+      height: 280px;
       top: 0;
       left: 0;
       width: 285px;
@@ -61,6 +63,7 @@
 
     .Card__Info {
       width: 445px;
+      height: 100%;
       top: 0;
       left: 0;
       flex-direction: column;
