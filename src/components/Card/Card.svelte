@@ -11,13 +11,15 @@
     width: 327px;
     height: 512px;
     border-radius: 10px;
-    background-color: red;
-    /* background-color: white; */
-    box-shadow: 0px 10px 10px grey;
-    /* opacity: 0.5; */
+    /* background-color: red; */
+    background-color: white;
+    /* box-shadow: 0px 10px 10px grey; */
+    opacity: .3;
   }
 
   .Card__banner {
+    margin: 0;
+    padding: 0;
     height: 200px;
     width: 100%;
     overflow: hidden;
@@ -33,6 +35,7 @@
     position: relative;
     width: 100%;
     height: 313px;
+    top:0px;
   }
 
   @media screen and (min-width: 1440px) {
@@ -66,13 +69,13 @@
 </style>
 
 <article class="Card">
-  <figure class="Card Card__banner">
+  <figure class="Card__banner">
     <img
       src="./images/drawers.jpg"
       alt="background: drawers with green background" />
     <!--  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> -->
   </figure>
-  <div class="Card Card__Info">
+  <div class="Card__Info">
     <Description />
     <Contact />
   </div>

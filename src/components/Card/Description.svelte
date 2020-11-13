@@ -1,7 +1,7 @@
 <style>
   .Card__Info__Description {
     width: 85%;
-    height: 204px;
+    height: 249px;
     background-color: white;
 
     font-family: Manrope;
@@ -18,9 +18,10 @@
   }
 
   .Card__Info__Description h2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 36px;
     color: #48556a;
-    margin-top: 36px;
-    margin-bottom: 0;
     font-size: 16px;
     width: 262px;
     line-height: 1.5em;

@@ -13,7 +13,6 @@
     width: 100%;
     height: 64px;
     display: flex;
-    padding-top: 9px;
   }
 
   .Card__Info__Contact .Card__Info__Contact__User {
@@ -86,18 +85,18 @@
     /* background-color: red; */
     /* opacity: 0.3; */
     width: 100%;
-    height: 65px;
-    top: 0;
+    height: 63px;
+    top: -8px;
     left: 0;
     border-radius: 0 0 10px 10px;
     display: flex;
-    padding-top: 6px;
   }
 
   .Card__Info__Contact_SocialMedia_Links {
     width: 237px;
     display: flex;
     position: relative;
+    top:5px;
   }
   .Card__Info__Contact_SocialMedia_Links p {
     display: inline;
@@ -139,13 +138,17 @@ top: 0px; */
   }
 
   .Card__Info__Contact_SocialMedia_Action {
-    position: relative;
+    position: absolute;
     width: 90px;
     height: 48px;
-    padding-top: 7px;
-    padding-left: 26px;
+    padding-top: 7px;/* 
+    padding-left: 26px; */
+    right:-26px
   }
 
+  .dissappearInMobile {
+      display: none;
+  }
   @media screen and (min-width: 1440px) {
     .Card__Info__Contact {
       height: 70px;
@@ -188,12 +191,18 @@ top: 0px; */
     .Card__Info__Contact_SocialMedia_Links ul {
       margin-top: 12px;
     }
+
+    .dissappearInMobile {
+      display: block;
+    }
+
   }
 </style>
 
 <div class="Card__Info Card__Info__Contact">
+  
   <div class="Card__Info__Contact Card__Info__Contact__User">
-    <figure class="Card__Info__Contact__User Card__Info__Contact__User__Avatar">
+    <figure class="Card__Info__Contact__User Card__Info__Contact__User__Avatar" class:dissappearInMobile={showSocialMedia === true}>
       <img src="./images/avatar-michelle.jpg" alt="avatar: michelle" />
       <!--  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> -->
     </figure>
